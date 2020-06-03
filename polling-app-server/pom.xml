@@ -57,11 +57,10 @@
 			<artifactId>jackson-datatype-jsr310</artifactId>
 		</dependency>
 
-
-		<!-- Flyway database management -->
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
